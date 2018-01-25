@@ -1,0 +1,50 @@
+p, a, i, li, ul, ol, h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.container {
+	
+}
+
+.jumbotron {
+	background-image: url("../images/bgimg.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+
+	.navi {
+	  	display: flex;
+	  	align-items: center;	
+		
+
+		.navi__image {
+		
+			display: flex;
+			justify-content: flex-start;
+			flex: 1;
+		}
+
+		.navi__menu {
+			display: flex;
+			justify-content: flex-end;
+			list-style-type: none;
+			flex: 1;
+			li {
+				a {
+					padding: 0 0 0 40px;
+					font-size: 16px;
+
+				}
+			}  			
+		}
+	}
+
+}
+

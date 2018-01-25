@@ -1,0 +1,57 @@
+p, a, i, li, ul, ol, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.jumbotron {
+  background-image: url("../images/bgimg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.jumbotron .navi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jumbotron .navi .navi__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.jumbotron .navi .navi__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.jumbotron .navi .navi__menu li a {
+  padding: 0 0 0 40px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
