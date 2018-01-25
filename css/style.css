@@ -209,4 +209,72 @@ p {
   padding-bottom: 20px;
 }
 
+.aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutus .aboutus__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus .aboutus__header h1 {
+  text-transform: uppercase;
+  font: 18px;
+  font-weight: bold;
+}
+
+.aboutus .aboutus__circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus .aboutus__circle .circle {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
+  display: flex;
+  padding-left: 600px;
+}
+
+.aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
+  display: flex;
+  text-align: right;
+  padding-right: 600px;
+}
+
+.aboutus .aboutus__circle .circle .circle__image {
+  position: absolute;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+}
+
+.aboutus .aboutus__circle .circle .circle__text {
+  position: relative;
+  margin: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutus .aboutus__circle .circle .circle__text h1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.aboutus .aboutus__circle .circle .circle__text h1:first-child {
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */

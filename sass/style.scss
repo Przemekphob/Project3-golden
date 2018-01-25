@@ -206,3 +206,77 @@ p {
 		}
 	}	
 }
+
+.aboutus {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	.aboutus__header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		h1 {
+			text-transform: uppercase;
+			font: 18px;
+			font-weight: bold;	
+		}
+
+	}
+
+	.aboutus__circle {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+
+
+		.circle {
+			display: flex;
+			justify-content: center;			
+			&:nth-child(even) {
+				.circle__text {
+					display: flex;
+					padding-left: 600px;
+				}
+
+			}
+
+			&:nth-child(odd) {
+				.circle__text {
+					display: flex;
+					text-align: right;
+					padding-right: 600px;					
+				}				
+			}
+
+
+			.circle__image {
+				position: absolute;
+				align-self: center;
+				justify-content: center;
+				display: flex;
+			}
+
+			.circle__text {	
+				position: relative;
+				margin: 100px 0 100px 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+
+
+				h1 {
+					font-size: 18px;
+					font-weight: bold;
+					padding: 5px;
+					&:first-child {
+						text-transform: uppercase;
+					}
+				}
+			}
+		}	
+	}
+}
