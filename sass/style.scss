@@ -14,12 +14,32 @@ p, a, i, li, ul, ol, h1, h2, h3 {
 
 h1 {
 	font: $monrat;
+	padding: 20px;
+}
+
+h2 {
 	text-transform: uppercase;
+	font-weight: bold;		
+}
+
+h3 {
+	font: 16px $monrat;	
+	color: $lightgrey;
+	font-style: italic;
 }
 
 a, a:hover {
 	text-decoration: none;
 	color: #FFF;
+}
+
+p {
+	font: 14px $robslab;
+	color: $lightgrey;
+}
+
+.container {
+	padding: 120px;
 }
 
 .yellowbtn {
@@ -33,10 +53,6 @@ a, a:hover {
 	text-transform: uppercase;
 }
 
-.container {
-	
-}
-
 .jumbotron {
 	background-image: url("../images/bgimg.png");
 	background-position: center;
@@ -46,17 +62,16 @@ a, a:hover {
 
 	.navi {
 	  	display: flex;
+	  	justify-content: space-around;
 	  	align-items: center;	
-	  	padding-bottom: 180px;
-		
-
+	  	text-align: center;
+	  	padding: 0 230px 180px 230px;
 		.navi__image {
 		
 			display: flex;
 			justify-content: flex-start;
 			flex: 1;
 		}
-
 		.navi__menu {
 			display: flex;
 			justify-content: flex-end;
@@ -67,7 +82,6 @@ a, a:hover {
 					font: 14px $monrat;
 					padding: 0 0 0 40px;
 					font-size: 16px;
-
 				}
 			}  			
 		}
@@ -80,7 +94,6 @@ a, a:hover {
 		text-align: center;
 		flex-direction: column;
 		color: #FFF;
-		padding-bottom: 160px;
 
 		p {
 			font: 40px $notsrf;
@@ -88,11 +101,64 @@ a, a:hover {
 			padding: 25px;
 		}
 		h1 {
+			text-transform: uppercase;
 			font-weight: bold;
 			font-size: 75px;
 			padding: 0 0 70px 0;
 		}
 	}
+}
 
+.services {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	.services__header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		h1 {
+			text-transform: uppercase;
+			font: 40px $monrat;
+			font-weight: bold;	
+		}
+
+	}
+	.services__items {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding-top: 80px;
+		.item {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			flex: 1;
+			padding: 33px;
+			.item__image {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border: 3px $yellow solid;
+				height: 70px;
+	    		width: 70px;
+	    		line-height: 70px;
+	    		border-radius: 50%;
+			}
+			h1 {
+				font-size: 18px;
+				font-weight: bold;	
+			}
+			p {
+				text-align: center;
+
+			}
+		}
+	}
 }
 

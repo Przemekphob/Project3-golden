@@ -6,12 +6,32 @@ p, a, i, li, ul, ol, h1, h2, h3 {
 
 h1 {
   font: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+h2 {
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font: 16px "Montserrat", sans-serif;
+  color: #777777;
+  font-style: italic;
 }
 
 a, a:hover {
   text-decoration: none;
   color: #FFF;
+}
+
+p {
+  font: 14px "Roboto Slab", serif;
+  color: #777777;
+}
+
+.container {
+  padding: 120px;
 }
 
 .yellowbtn {
@@ -35,8 +55,10 @@ a, a:hover {
 
 .jumbotron .navi {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  padding-bottom: 180px;
+  text-align: center;
+  padding: 0 230px 180px 230px;
 }
 
 .jumbotron .navi .navi__image {
@@ -65,7 +87,6 @@ a, a:hover {
   text-align: center;
   flex-direction: column;
   color: #FFF;
-  padding-bottom: 160px;
 }
 
 .jumbotron .header p {
@@ -75,9 +96,68 @@ a, a:hover {
 }
 
 .jumbotron .header h1 {
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 75px;
   padding: 0 0 70px 0;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services .services__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .services__header h1 {
+  text-transform: uppercase;
+  font: 40px "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.services .services__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 80px;
+}
+
+.services .services__items .item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 33px;
+}
+
+.services .services__items .item .item__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px #fed136 solid;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+
+.services .services__items .item h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.services .services__items .item p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
