@@ -1,11 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Serif|Roboto+Slab&subset=latin-ext");
 p, a, i, li, ul, ol, h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
 
+h1 {
+  font: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
 a, a:hover {
   text-decoration: none;
   color: #FFF;
+}
+
+.yellowbtn {
+  width: 240px;
+  height: 66px;
+  border: none;
+  border-radius: 2%;
+  font: 18px "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #fed136;
+  text-transform: uppercase;
 }
 
 .jumbotron {
@@ -23,6 +40,7 @@ a, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 180px;
 }
 
 .jumbotron .navi .navi__image {
@@ -51,7 +69,39 @@ a, a:hover {
 }
 
 .jumbotron .navi .navi__menu li a {
+  font: 14px "Montserrat", sans-serif;
   padding: 0 0 0 40px;
   font-size: 16px;
+}
+
+.jumbotron .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #FFF;
+  padding-bottom: 160px;
+}
+
+.jumbotron .header p {
+  font: 40px "Noto Serif", serif;
+  font-style: italic;
+  padding: 25px;
+}
+
+.jumbotron .header h1 {
+  font-weight: bold;
+  font-size: 75px;
+  padding: 0 0 70px 0;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
