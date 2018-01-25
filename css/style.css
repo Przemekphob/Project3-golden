@@ -45,6 +45,11 @@ p {
   text-transform: uppercase;
 }
 
+.lightbg {
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
 .jumbotron {
   background-image: url("../images/bgimg.png");
   background-position: center;
@@ -93,6 +98,7 @@ p {
   font: 40px "Noto Serif", serif;
   font-style: italic;
   padding: 25px;
+  color: #FFF;
 }
 
 .jumbotron .header h1 {
@@ -158,6 +164,49 @@ p {
 
 .services .services__items .item p {
   text-align: center;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio .portfolio__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .portfolio__header h1 {
+  text-transform: uppercase;
+  font: 18px;
+  font-weight: bold;
+}
+
+.portfolio .portfolio__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  flex-wrap: wrap;
+}
+
+.portfolio .portfolio__box .box {
+  background-color: #FFF;
+  margin: 25px 8px 25px 8px;
+  text-align: center;
+}
+
+.portfolio .portfolio__box .box h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.portfolio .portfolio__box .box p {
+  font-style: italic;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
