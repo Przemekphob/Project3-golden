@@ -232,7 +232,6 @@ p {
 .aboutus .aboutus__circle {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -242,29 +241,51 @@ p {
 }
 
 .aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
-  display: flex;
   padding-left: 600px;
 }
 
 .aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
-  display: flex;
   text-align: right;
   padding-right: 600px;
 }
 
+.aboutus .aboutus__circle .circle:last-child .circle__text {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: 130px 300px 0 300px;
+}
+
+.aboutus .aboutus__circle .circle:last-child .circle__text h1 {
+  color: #FFF;
+  word-spacing: 100vw;
+}
+
+.aboutus .aboutus__circle .circle:last-child .circle__image:after {
+  visibility: hidden;
+}
+
 .aboutus .aboutus__circle .circle .circle__image {
   position: absolute;
-  align-self: center;
   justify-content: center;
   display: flex;
+  margin: 80px 0 80px 0;
+}
+
+.aboutus .aboutus__circle .circle .circle__image:after {
+  content: '';
+  height: 100%;
+  position: absolute;
+  border: 2px solid #f7f7f7;
+  margin: 180px 0 0 0;
+  z-index: -1;
 }
 
 .aboutus .aboutus__circle .circle .circle__text {
-  position: relative;
-  margin: 100px 0 100px 0;
+  margin: 80px 0 80px 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .aboutus .aboutus__circle .circle .circle__text h1 {

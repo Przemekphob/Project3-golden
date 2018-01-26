@@ -228,17 +228,19 @@ p {
 	.aboutus__circle {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+	
 		align-items: center;
 
 
 
 		.circle {
 			display: flex;
-			justify-content: center;			
+			justify-content: center;
+
+		
+			
 			&:nth-child(even) {
 				.circle__text {
-					display: flex;
 					padding-left: 600px;
 				}
 
@@ -246,27 +248,53 @@ p {
 
 			&:nth-child(odd) {
 				.circle__text {
-					display: flex;
 					text-align: right;
 					padding-right: 600px;					
 				}				
 			}
 
+			&:last-child {
+				.circle__text {
+				position: absolute;
+				justify-content: center;
+				text-align: center;
+				display: flex;
+				margin: 130px 300px 0 300px;
+				h1 {
+					color: #FFF;
+					word-spacing: 100vw;
+				}
+
+									
+				}				
+			}
+			&:last-child { 
+				.circle__image {
+					&:after { 
+					visibility: hidden;
+					}
+				}
+			}
 
 			.circle__image {
 				position: absolute;
-				align-self: center;
 				justify-content: center;
 				display: flex;
+				margin: 80px 0 80px 0;
+				&:after {
+				  	content: '';
+				  	height: 100%;
+				  	position: absolute;
+				  	border: 2px solid $lightbg;
+				  	margin: 180px 0 0 0;
+				  	z-index: -1;
+				}	
 			}
 
 			.circle__text {	
-				position: relative;
-				margin: 100px 0 100px 0;
+				margin: 80px 0 80px 0;
 				display: flex;
 				flex-direction: column;
-				justify-content: center;
-
 
 				h1 {
 					font-size: 18px;
