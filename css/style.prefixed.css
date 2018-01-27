@@ -34,6 +34,64 @@ p {
   padding: 120px;
 }
 
+::-webkit-input-placeholder {
+  color: #777777;
+  text-transform: uppercase;
+  font: 14px "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+  color: #777777;
+  text-transform: uppercase;
+  font: 14px "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+::placeholder {
+  color: #777777;
+  text-transform: uppercase;
+  font: 14px "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.fa {
+  border-radius: 50%;
+  border: 4px solid #000;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fa-twitter:hover {
+  border: 4px solid #00aced;
+  background-color: #00aced;
+  color: #FFF;
+}
+
+.fa-facebook:hover {
+  border: 4px solid #3b5998;
+  background-color: #3b5998;
+  color: #FFF;
+}
+
+.fa-pinterest-p:hover {
+  border: 4px solid #cb2028;
+  background-color: #cb2028;
+  color: #FFF;
+}
+
+.fa-google-plus:hover {
+  border: 4px solid #d95232;
+  background-color: #d95232;
+  color: #FFF;
+}
+
 .yellowbtn {
   width: 240px;
   height: 66px;
@@ -352,6 +410,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 300px;
 }
 
 .aboutus .aboutus__circle .circle {
@@ -432,5 +491,226 @@ p {
 
 .aboutus .aboutus__circle .circle .circle__text h1:first-child {
   text-transform: uppercase;
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.team .team__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team .team__header h1 {
+  text-transform: uppercase;
+  font: 18px;
+  font-weight: bold;
+}
+
+.team .team__person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.team .team__person .person {
+  padding: 25px;
+}
+
+.team .team__person .person .person__descr {
+  margin: 25px 8px 25px 8px;
+  text-align: center;
+}
+
+.team .team__person .person .person__descr h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team .team__person .person .person__descr p {
+  padding-bottom: 20px;
+}
+
+.team .team__text {
+  padding: 0 145px 0 145px;
+  text-align: center;
+}
+
+.team .team__text p {
+  font-size: 16px;
+}
+
+.baners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.baners img {
+  padding: 60px 20px 60px 20px;
+}
+
+.mapbg {
+  background-color: #222222;
+  width: 100%;
+  background-image: url("../images/Map.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.mapbg .contactus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mapbg .contactus button {
+  color: #FFF;
+}
+
+.mapbg .contactus .contactus__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mapbg .contactus .contactus__header h1 {
+  text-transform: uppercase;
+  font: 18px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.mapbg .contactus .contactus__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+}
+
+.mapbg .contactus .contactus__form .form__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.mapbg .contactus .contactus__form .form__input input {
+  margin: 15px 25px 30px 0;
+  padding: 15px;
+  width: 450px;
+  height: 50px;
+}
+
+.mapbg .contactus .contactus__form textarea {
+  margin: 15px 0 30px 25px;
+  padding: 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  resize: none;
+  width: 450px;
+  height: 210px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 120px;
+}
+
+.footer .footer__text {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+}
+
+.footer .footer__text p {
+  font: 14px "Montserrat", sans-serif;
+  color: #777777;
+  font-weight: bold;
+}
+
+.footer .footer__icon {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 60px 0 0px 0;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
