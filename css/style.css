@@ -284,12 +284,12 @@ p {
 }
 
 .aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
-  padding-left: 600px;
+  margin-left: 600px;
 }
 
 .aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
   text-align: right;
-  padding-right: 600px;
+  margin-right: 600px;
 }
 
 .aboutus .aboutus__circle .circle:last-child .circle__text {
@@ -297,7 +297,7 @@ p {
   justify-content: center;
   text-align: center;
   display: flex;
-  margin: 130px 300px 0 300px;
+  margin: 130px 0 0 0;
 }
 
 .aboutus .aboutus__circle .circle:last-child .circle__text h1 {
@@ -313,6 +313,7 @@ p {
   position: absolute;
   justify-content: center;
   display: flex;
+  flex: 1;
   margin: 80px 0 80px 0;
 }
 
@@ -328,7 +329,10 @@ p {
 .aboutus .aboutus__circle .circle .circle__text {
   margin: 80px 0 80px 0;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
+  max-width: 400px;
+  flex: 1;
 }
 
 .aboutus .aboutus__circle .circle .circle__text h1 {
@@ -400,6 +404,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .baners img {
@@ -487,6 +492,446 @@ p {
 .footer .footer__icon {
   flex: 1;
   padding: 0 60px 0 0px 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding: 120px 0 120px 0;
+  }
+  .jumbotron .navi {
+    padding: 0 100px 100px 100px;
+  }
+  .jumbotron .header p {
+    font: 40px "Noto Serif", serif;
+    padding: 25px;
+  }
+  .jumbotron .header h1 {
+    font-size: 70px;
+    padding: 0 0 60px 0;
+  }
+  .services .services__items {
+    padding-top: 70px;
+  }
+  .services .services__items .item {
+    padding: 10px;
+  }
+  .portfolio .portfolio__box {
+    padding-top: 60px;
+  }
+  .portfolio .portfolio__box .box {
+    margin: 15px 4px 15px 4px;
+  }
+  .aboutus .aboutus__circle {
+    padding-bottom: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 80px 0 80px 0;
+  }
+  .jumbotron .navi {
+    padding: 0 70px 70px 70px;
+  }
+  .jumbotron .navi .navi__menu li a {
+    padding: 0 0 0 30px;
+  }
+  .jumbotron .header p {
+    font: 40px "Noto Serif", serif;
+    padding: 20px;
+  }
+  .jumbotron .header h1 {
+    font-size: 55px;
+    padding: 0 0 50px 0;
+  }
+  .services .services__items {
+    padding-top: 50px;
+  }
+  .services .services__items .item {
+    padding: 5px;
+  }
+  .portfolio .portfolio__box {
+    padding-top: 50px;
+  }
+  .portfolio .portfolio__box .box {
+    margin: 40px;
+  }
+  .aboutus .aboutus__circle {
+    padding-bottom: 250px;
+  }
+  .aboutus .aboutus__circle .circle {
+    display: flex;
+    justify-content: center;
+  }
+  .aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
+    margin-left: 480px;
+  }
+  .aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
+    text-align: right;
+    margin-right: 480px;
+  }
+  .aboutus .aboutus__circle .circle:last-child .circle__text {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 130px 0 0 0;
+  }
+  .aboutus .aboutus__circle .circle:last-child .circle__text h1 {
+    color: #FFF;
+    word-spacing: 100vw;
+  }
+  .aboutus .aboutus__circle .circle .circle__text {
+    margin: 80px 0 80px 0;
+    max-width: 200px;
+  }
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team .team__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .team .team__header h1 {
+    text-transform: uppercase;
+    font: 18px;
+    font-weight: bold;
+  }
+  .team .team__person {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+  .team .team__person .person {
+    padding: 10px;
+  }
+  .team .team__person .person .person__descr {
+    margin: 25px 8px 25px 8px;
+    text-align: center;
+  }
+  .team .team__person .person .person__descr h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .team .team__text {
+    padding: 0 75px 0 75px;
+    text-align: center;
+  }
+  .baners img {
+    padding: 60px 10px 60px 10px;
+  }
+  .mapbg .contactus .contactus__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+  }
+  .mapbg .contactus .contactus__form .form__input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .mapbg .contactus .contactus__form .form__input input {
+    margin: 15px 25px 30px 0;
+    padding: 15px;
+    width: 325px;
+    height: 50px;
+  }
+  .mapbg .contactus .contactus__form textarea {
+    margin: 15px 0 30px 25px;
+    padding: 15px;
+    flex: 1;
+    resize: none;
+    width: 325px;
+    height: 210px;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px;
+  }
+  .footer .footer__text {
+    flex: 1;
+  }
+  .footer .footer__text p {
+    font: 14px "Montserrat", sans-serif;
+    color: #777777;
+    font-weight: bold;
+  }
+  .footer .footer__icon {
+    flex: 1;
+    padding: 0 60px 0 0px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font: "Montserrat", sans-serif;
+    padding: 18px;
+  }
+  h3 {
+    font: 14px "Montserrat", sans-serif;
+    color: #777777;
+    font-style: italic;
+  }
+  a, a:hover {
+    text-decoration: none;
+    color: #FFF;
+  }
+  p {
+    font: 12px "Roboto Slab", serif;
+    color: #777777;
+  }
+  .container {
+    padding: 40px 0 40px 0;
+  }
+  .jumbotron .navi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 70px 30px 70px;
+  }
+  .jumbotron .navi .navi__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .jumbotron .navi .navi__menu li {
+    padding-top: 20px;
+  }
+  .jumbotron .navi .navi__menu li a {
+    padding: 0 0 0 0;
+  }
+  .jumbotron .header p {
+    font: 26px "Noto Serif", serif;
+    padding: 10px;
+  }
+  .jumbotron .header h1 {
+    font-size: 35px;
+    padding: 0 0 20px 0;
+  }
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .services .services__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .services__header h1 {
+    text-transform: uppercase;
+    font: 28px "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  .services .services__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .services .services__items .item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 33px;
+  }
+  .services .services__items .item h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .services .services__items .item p {
+    text-align: center;
+  }
+  .portfolio .portfolio__header h1 {
+    text-transform: uppercase;
+    font: 16px;
+    font-weight: bold;
+  }
+  .portfolio .portfolio__box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+  .portfolio .portfolio__box .box {
+    background-color: #FFF;
+    margin: 25px 8px 25px 8px;
+    text-align: center;
+  }
+  .portfolio .portfolio__box .box h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .portfolio .portfolio__box .box p {
+    font-style: italic;
+    padding-bottom: 20px;
+  }
+  .aboutus .aboutus__header h1 {
+    text-transform: uppercase;
+    font: 16px;
+    font-weight: bold;
+  }
+  .aboutus .aboutus__circle {
+    padding-bottom: 200px;
+  }
+  .aboutus .aboutus__circle .circle {
+    display: flex;
+    justify-content: center;
+  }
+  .aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
+    margin-left: 0;
+  }
+  .aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
+    text-align: center;
+    margin-right: 0;
+  }
+  .aboutus .aboutus__circle .circle:last-child .circle__text {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 80px 0 0 0;
+  }
+  .aboutus .aboutus__circle .circle:last-child .circle__text h1 {
+    color: #FFF;
+    word-spacing: 100vw;
+  }
+  .aboutus .aboutus__circle .circle .circle__image {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    margin: 25px 0 300px 0;
+  }
+  .aboutus .aboutus__circle .circle .circle__image:after {
+    display: none;
+  }
+  .aboutus .aboutus__circle .circle .circle__text {
+    text-align: center;
+    margin: 225px 0 80px 0;
+    max-width: 350px;
+  }
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team .team__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .team .team__header h1 {
+    text-transform: uppercase;
+    font: 16px;
+    font-weight: bold;
+  }
+  .team .team__person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+  .team .team__person .person {
+    padding: 10px;
+  }
+  .team .team__person .person .person__descr {
+    margin: 25px 8px 25px 8px;
+    text-align: center;
+  }
+  .team .team__person .person .person__descr h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .team .team__text {
+    padding: 0 75px 0 75px;
+    text-align: center;
+  }
+  .baners img {
+    padding: 60px 10px 60px 10px;
+  }
+  .mapbg .contactus .contactus__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mapbg .contactus .contactus__header h1 {
+    text-transform: uppercase;
+    font: 16px;
+    font-weight: bold;
+    color: #FFF;
+  }
+  .mapbg .contactus .contactus__header h3 {
+    color: #FFF;
+  }
+  .mapbg .contactus .contactus__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 25px;
+  }
+  .mapbg .contactus .contactus__form .form__input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .mapbg .contactus .contactus__form .form__input input {
+    margin: 15px 15px 30px 15px;
+    padding: 15px;
+    width: 325px;
+    height: 50px;
+  }
+  .mapbg .contactus .contactus__form textarea {
+    margin: 15px 15px 30px 15px;
+    padding: 15px;
+    flex: 1;
+    resize: none;
+    width: 325px;
+    height: 210px;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 50px;
+  }
+  .footer .footer__text {
+    flex: 1;
+  }
+  .footer .footer__text p {
+    padding: 25px;
+    font: 14px "Montserrat", sans-serif;
+    color: #777777;
+    font-weight: bold;
+  }
+  .footer .footer__icon {
+    flex: 1;
+    padding: 25px 0 0 0 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
