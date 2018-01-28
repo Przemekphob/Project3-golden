@@ -728,6 +728,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .services .services__header h1 {
@@ -758,6 +759,9 @@ p {
   .services .services__items .item p {
     text-align: center;
   }
+  .portfolio .portfolio__header {
+    text-align: center;
+  }
   .portfolio .portfolio__header h1 {
     text-transform: uppercase;
     font: 16px;
@@ -784,6 +788,9 @@ p {
     font-style: italic;
     padding-bottom: 20px;
   }
+  .aboutus .aboutus__header {
+    text-align: center;
+  }
   .aboutus .aboutus__header h1 {
     text-transform: uppercase;
     font: 16px;
@@ -808,7 +815,7 @@ p {
     justify-content: center;
     text-align: center;
     display: flex;
-    margin: 80px 200px 0 0;
+    margin: 80px 250px 0 0;
   }
   .aboutus .aboutus__circle .circle:last-child .circle__text h1 {
     color: #FFF;
@@ -839,6 +846,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
   }
   .team .team__header h1 {
@@ -866,7 +874,7 @@ p {
     font-weight: bold;
   }
   .team .team__text {
-    padding: 0 75px 0 75px;
+    padding: 0 25px 0 25px;
     text-align: center;
   }
   .baners img {
@@ -877,6 +885,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .mapbg .contactus .contactus__header h1 {
     text-transform: uppercase;
@@ -901,7 +910,7 @@ p {
   .mapbg .contactus .contactus__form .form__input input {
     margin: 15px 15px 30px 15px;
     padding: 15px;
-    width: 325px;
+    width: 200px;
     height: 50px;
   }
   .mapbg .contactus .contactus__form textarea {
@@ -909,8 +918,8 @@ p {
     padding: 15px;
     flex: 1;
     resize: none;
-    width: 325px;
-    height: 210px;
+    width: 200px;
+    height: 150px;
   }
   .footer {
     display: flex;
@@ -931,6 +940,16 @@ p {
   .footer .footer__icon {
     flex: 1;
     padding: 25px 0 0 0 0;
+  }
+  .yellowbtn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 2%;
+    font: 16px "Montserrat", sans-serif;
+    font-weight: bold;
+    background-color: #fed136;
+    text-transform: uppercase;
   }
 }
 

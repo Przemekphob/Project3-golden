@@ -818,6 +818,7 @@ p {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			text-align: center;
 			align-items: center;
 			h1 {
 				text-transform: uppercase;
@@ -854,6 +855,7 @@ p {
 
 	.portfolio {
 		.portfolio__header {
+			text-align: center;
 			h1 {
 				text-transform: uppercase;
 				font: 16px;
@@ -886,7 +888,7 @@ p {
 
 	.aboutus {
 		.aboutus__header {
-
+			text-align: center;
 			h1 {
 				text-transform: uppercase;
 				font: 16px;
@@ -915,7 +917,7 @@ p {
 						justify-content: center;
 						text-align: center;
 						display: flex;
-						margin: 80px 200px 0 0;
+						margin: 80px 250px 0 0;
 						h1 {
 							color: #FFF;
 							word-spacing: 100vw;
@@ -952,6 +954,7 @@ p {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			text-align: center;
 			align-items: center;
 			h1 {
 				text-transform: uppercase;
@@ -980,7 +983,7 @@ p {
 			}
 		}
 		.team__text {
-			padding: 0 75px 0 75px;
+			padding: 0 25px 0 25px;
 			text-align: center;
 		}
 	}
@@ -999,6 +1002,7 @@ p {
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
+				text-align: center;
 				h1 {
 					text-transform: uppercase;
 					font: 16px;
@@ -1025,7 +1029,7 @@ p {
 					input {
 						margin: 15px 15px 30px 15px;
 						padding: 15px;
-						width: 325px;
+						width: 200px;
 						height: 50px
 					}
 				}
@@ -1035,8 +1039,8 @@ p {
 					padding: 15px;				
 					flex: 1;			
 					resize: none;
-					width: 325px;	
-					height: 210px;	
+					width: 200px;	
+					height: 150px;	
 
 				}
 			}
@@ -1065,5 +1069,16 @@ p {
 			padding: 25px 0 0 0 0;
 		}
 	}
+
+.yellowbtn {
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 2%;
+	font: 16px $monrat;
+	font-weight: bold;
+	background-color: $yellow;
+	text-transform: uppercase;
+}
 
 }
