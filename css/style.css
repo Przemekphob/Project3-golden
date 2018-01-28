@@ -808,7 +808,7 @@ p {
     justify-content: center;
     text-align: center;
     display: flex;
-    margin: 80px 0 0 0;
+    margin: 80px 200px 0 0;
   }
   .aboutus .aboutus__circle .circle:last-child .circle__text h1 {
     color: #FFF;
@@ -819,7 +819,7 @@ p {
     justify-content: center;
     display: flex;
     flex: 1;
-    margin: 25px 0 300px 0;
+    margin: 25px 0 0 0;
   }
   .aboutus .aboutus__circle .circle .circle__image:after {
     display: none;

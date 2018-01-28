@@ -911,15 +911,15 @@ p {
 				}
 				&:last-child {
 					.circle__text {
-					position: absolute;
-					justify-content: center;
-					text-align: center;
-					display: flex;
-					margin: 80px 0 0 0;
-					h1 {
-						color: #FFF;
-						word-spacing: 100vw;
-					}				
+						position: absolute;
+						justify-content: center;
+						text-align: center;
+						display: flex;
+						margin: 80px 200px 0 0;
+						h1 {
+							color: #FFF;
+							word-spacing: 100vw;
+						}				
 					}				
 				}
 
@@ -928,7 +928,7 @@ p {
 					justify-content: center;
 					display: flex;
 					flex: 1;
-					margin: 25px 0 300px 0;
+					margin: 25px 0 0 0;
 					&:after {
 						display: none;
 					}	
