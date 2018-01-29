@@ -56,6 +56,12 @@ p {
 	opacity: 0.5;
 }
 
+@mixin faicon($color) {
+	border: 4px solid $color;
+	background-color: $color;
+	color: #FFF;	
+}
+
 .fa {
   	border-radius: 50%;
   	border: 4px solid #000;
@@ -64,36 +70,29 @@ p {
   	font-size: 24px;
   	text-align: center;
   	padding: 10px;
-}
 
-.fa-twitter {
-	&:hover {
-  		border: 4px solid $twittcol;
-		background-color: $twittcol;
-		color: #FFF;
+	&-twitter {
+		&:hover {
+			@include faicon($twittcol);
+		}		
 	}
-}
-.fa-facebook {
-	&:hover {
-  		border: 4px solid $fbcol;
-		background-color: $fbcol;
-		color: #FFF;
-	}
-}
 
-.fa-pinterest-p {
-	&:hover {
-  		border: 4px solid $pintcol;
-		background-color: $pintcol;
-		color: #FFF;
+	&-facebook {
+		&:hover {
+			@include faicon($fbcol);
+		}		
 	}
-}
 
-.fa-google-plus {
-	&:hover {
-  		border: 4px solid $googlecol;
-		background-color: $googlecol;
-		color: #FFF;
+	&-pinterest-p {
+		&:hover {
+			@include faicon($pintcol);
+		}	
+	}
+
+	&-google-plus {
+		&:hover {
+			@include faicon($googlecol);
+		}	
 	}
 }
 
