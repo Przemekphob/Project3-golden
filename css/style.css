@@ -108,20 +108,20 @@ p {
   padding: 0 230px 180px 230px;
 }
 
-.jumbotron .navi .navi__image {
+.jumbotron .navi__image {
   display: flex;
   justify-content: flex-start;
   flex: 1;
 }
 
-.jumbotron .navi .navi__menu {
+.jumbotron .navi__menu {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
   flex: 1;
 }
 
-.jumbotron .navi .navi__menu li a {
+.jumbotron .navi__menu li a {
   font: 14px "Montserrat", sans-serif;
   padding: 0 0 0 40px;
   font-size: 16px;
@@ -157,20 +157,20 @@ p {
   flex-direction: column;
 }
 
-.services .services__header {
+.services__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.services .services__header h1 {
+.services__header h1 {
   text-transform: uppercase;
   font: 40px "Montserrat", sans-serif;
   font-weight: bold;
 }
 
-.services .services__items {
+.services__items {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -179,7 +179,7 @@ p {
   padding-top: 80px;
 }
 
-.services .services__items .item {
+.services__items .item {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -188,7 +188,7 @@ p {
   padding: 33px;
 }
 
-.services .services__items .item .item__image {
+.services__items .item__image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,12 +199,12 @@ p {
   border-radius: 50%;
 }
 
-.services .services__items .item h1 {
+.services__items .item h1 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.services .services__items .item p {
+.services__items .item p {
   text-align: center;
 }
 
@@ -214,20 +214,20 @@ p {
   flex-direction: column;
 }
 
-.portfolio .portfolio__header {
+.portfolio__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.portfolio .portfolio__header h1 {
+.portfolio__header h1 {
   text-transform: uppercase;
   font: 18px;
   font-weight: bold;
 }
 
-.portfolio .portfolio__box {
+.portfolio__box {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -235,18 +235,18 @@ p {
   flex-wrap: wrap;
 }
 
-.portfolio .portfolio__box .box {
+.portfolio__box .box {
   background-color: #FFF;
   margin: 25px 8px 25px 8px;
   text-align: center;
 }
 
-.portfolio .portfolio__box .box h1 {
+.portfolio__box .box h1 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.portfolio .portfolio__box .box p {
+.portfolio__box .box p {
   font-style: italic;
   padding-bottom: 20px;
 }
@@ -258,41 +258,41 @@ p {
   flex-direction: column;
 }
 
-.aboutus .aboutus__header {
+.aboutus__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.aboutus .aboutus__header h1 {
+.aboutus__header h1 {
   text-transform: uppercase;
   font: 18px;
   font-weight: bold;
 }
 
-.aboutus .aboutus__circle {
+.aboutus__circle {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 300px;
 }
 
-.aboutus .aboutus__circle .circle {
+.aboutus__circle .circle {
   display: flex;
   justify-content: center;
 }
 
-.aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
+.aboutus__circle .circle:nth-child(even) .circle__text {
   margin-left: 600px;
 }
 
-.aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
+.aboutus__circle .circle:nth-child(odd) .circle__text {
   text-align: right;
   margin-right: 600px;
 }
 
-.aboutus .aboutus__circle .circle:last-child .circle__text {
+.aboutus__circle .circle:last-child .circle__text {
   position: absolute;
   justify-content: center;
   text-align: center;
@@ -300,16 +300,16 @@ p {
   margin: 130px 0 0 0;
 }
 
-.aboutus .aboutus__circle .circle:last-child .circle__text h1 {
+.aboutus__circle .circle:last-child .circle__text h1 {
   color: #FFF;
   word-spacing: 100vw;
 }
 
-.aboutus .aboutus__circle .circle:last-child .circle__image:after {
+.aboutus__circle .circle:last-child .circle__image:after {
   visibility: hidden;
 }
 
-.aboutus .aboutus__circle .circle .circle__image {
+.aboutus__circle .circle__image {
   position: absolute;
   justify-content: center;
   display: flex;
@@ -317,7 +317,7 @@ p {
   margin: 80px 0 80px 0;
 }
 
-.aboutus .aboutus__circle .circle .circle__image:after {
+.aboutus__circle .circle__image:after {
   content: '';
   height: 100%;
   position: absolute;
@@ -326,7 +326,7 @@ p {
   z-index: -1;
 }
 
-.aboutus .aboutus__circle .circle .circle__text {
+.aboutus__circle .circle__text {
   margin: 80px 0 80px 0;
   display: flex;
   justify-content: flex-start;
@@ -335,13 +335,13 @@ p {
   flex: 1;
 }
 
-.aboutus .aboutus__circle .circle .circle__text h1 {
+.aboutus__circle .circle__text h1 {
   font-size: 18px;
   font-weight: bold;
   padding: 5px;
 }
 
-.aboutus .aboutus__circle .circle .circle__text h1:first-child {
+.aboutus__circle .circle__text h1:first-child {
   text-transform: uppercase;
 }
 
@@ -352,20 +352,20 @@ p {
   flex-direction: column;
 }
 
-.team .team__header {
+.team__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.team .team__header h1 {
+.team__header h1 {
   text-transform: uppercase;
   font: 18px;
   font-weight: bold;
 }
 
-.team .team__person {
+.team__person {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -373,30 +373,30 @@ p {
   flex-wrap: wrap;
 }
 
-.team .team__person .person {
+.team__person .person {
   padding: 25px;
 }
 
-.team .team__person .person .person__descr {
+.team__person .person .person__descr {
   margin: 25px 8px 25px 8px;
   text-align: center;
 }
 
-.team .team__person .person .person__descr h1 {
+.team__person .person .person__descr h1 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.team .team__person .person .person__descr p {
+.team__person .person .person__descr p {
   padding-bottom: 20px;
 }
 
-.team .team__text {
+.team__text {
   padding: 0 145px 0 145px;
   text-align: center;
 }
 
-.team .team__text p {
+.team__text p {
   font-size: 16px;
 }
 
@@ -430,47 +430,54 @@ p {
   color: #FFF;
 }
 
-.mapbg .contactus .contactus__header {
+.mapbg .contactus__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.mapbg .contactus .contactus__header h1 {
+.mapbg .contactus__header h1 {
   text-transform: uppercase;
   font: 18px;
   font-weight: bold;
   color: #FFF;
 }
 
-.mapbg .contactus .contactus__form {
+.mapbg .contactus__form {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-top: 50px;
+  justify-content: center;
 }
 
-.mapbg .contactus .contactus__form .form__input {
+.mapbg .contactus__form .form__input {
+  flex: 1;
+  width: 100%;
+  margin: 0 15px 0 15px;
+}
+
+.mapbg .contactus__form .form__input input {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  width: 100%;
+  margin: 15px 0 15px 0;
+  padding: 15px;
 }
 
-.mapbg .contactus .contactus__form .form__input input {
-  margin: 15px 25px 30px 0;
-  padding: 15px;
-  width: 450px;
-  height: 50px;
+.mapbg .contactus__form .form__textarea {
+  margin: 15px 15px 15px 0;
+  flex: 1;
+  display: flex;
 }
 
-.mapbg .contactus .contactus__form textarea {
-  margin: 15px 0 30px 25px;
-  padding: 15px;
+.mapbg .contactus__form .form__textarea textarea {
   flex: 1;
-  resize: none;
-  width: 450px;
-  height: 210px;
+  height: 100%;
+  padding: 15px;
 }
 
 .footer {
@@ -479,17 +486,17 @@ p {
   padding: 25px 120px;
 }
 
-.footer .footer__text {
+.footer__text {
   flex: 0.6;
 }
 
-.footer .footer__text p {
+.footer__text p {
   font: 14px "Montserrat", sans-serif;
   color: #777777;
   font-weight: bold;
 }
 
-.footer .footer__icon {
+.footer__icon {
   flex: 1;
   padding: 0 60px 0 0px 0;
 }
@@ -509,19 +516,19 @@ p {
     font-size: 70px;
     padding: 0 0 60px 0;
   }
-  .services .services__items {
+  .services__items {
     padding-top: 70px;
   }
-  .services .services__items .item {
+  .services__items .item {
     padding: 10px;
   }
-  .portfolio .portfolio__box {
+  .portfolio__box {
     padding-top: 60px;
   }
-  .portfolio .portfolio__box .box {
+  .portfolio__box .box {
     margin: 15px 4px 15px 4px;
   }
-  .aboutus .aboutus__circle {
+  .aboutus__circle {
     padding-bottom: 200px;
   }
 }
@@ -533,7 +540,7 @@ p {
   .jumbotron .navi {
     padding: 0 70px 70px 70px;
   }
-  .jumbotron .navi .navi__menu li a {
+  .jumbotron .navi__menu li a {
     padding: 0 0 0 30px;
   }
   .jumbotron .header p {
@@ -544,44 +551,44 @@ p {
     font-size: 55px;
     padding: 0 0 50px 0;
   }
-  .services .services__items {
+  .services__items {
     padding-top: 50px;
   }
-  .services .services__items .item {
+  .services__items .item {
     padding: 5px;
   }
-  .portfolio .portfolio__box {
+  .portfolio__box {
     padding-top: 50px;
   }
-  .portfolio .portfolio__box .box {
+  .portfolio__box .box {
     margin: 40px;
   }
-  .aboutus .aboutus__circle {
+  .aboutus__circle {
     padding-bottom: 250px;
   }
-  .aboutus .aboutus__circle .circle {
+  .aboutus__circle .circle {
     display: flex;
     justify-content: center;
   }
-  .aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
+  .aboutus__circle .circle:nth-child(even) .circle__text {
     margin-left: 480px;
   }
-  .aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
+  .aboutus__circle .circle:nth-child(odd) .circle__text {
     text-align: right;
     margin-right: 480px;
   }
-  .aboutus .aboutus__circle .circle:last-child .circle__text {
+  .aboutus__circle .circle:last-child .circle__text {
     position: absolute;
     justify-content: center;
     text-align: center;
     display: flex;
     margin: 130px 0 0 0;
   }
-  .aboutus .aboutus__circle .circle:last-child .circle__text h1 {
+  .aboutus__circle .circle:last-child .circle__text h1 {
     color: #FFF;
     word-spacing: 100vw;
   }
-  .aboutus .aboutus__circle .circle .circle__text {
+  .aboutus__circle .circle__text {
     margin: 80px 0 80px 0;
     max-width: 200px;
   }
@@ -591,18 +598,18 @@ p {
     align-items: center;
     flex-direction: column;
   }
-  .team .team__header {
+  .team__header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .team .team__header h1 {
+  .team__header h1 {
     text-transform: uppercase;
     font: 18px;
     font-weight: bold;
   }
-  .team .team__person {
+  .team__person {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -610,48 +617,23 @@ p {
     padding-top: 0;
     flex-wrap: wrap;
   }
-  .team .team__person .person {
+  .team__person .person {
     padding: 10px;
   }
-  .team .team__person .person .person__descr {
+  .team__person .person__descr {
     margin: 25px 8px 25px 8px;
     text-align: center;
   }
-  .team .team__person .person .person__descr h1 {
+  .team__person .person__descr h1 {
     font-size: 18px;
     font-weight: bold;
   }
-  .team .team__text {
+  .team__text {
     padding: 0 75px 0 75px;
     text-align: center;
   }
   .baners img {
     padding: 60px 10px 60px 10px;
-  }
-  .mapbg .contactus .contactus__form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 25px;
-  }
-  .mapbg .contactus .contactus__form .form__input {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-  }
-  .mapbg .contactus .contactus__form .form__input input {
-    margin: 15px 25px 30px 0;
-    padding: 15px;
-    width: 325px;
-    height: 50px;
-  }
-  .mapbg .contactus .contactus__form textarea {
-    margin: 15px 0 30px 25px;
-    padding: 15px;
-    flex: 1;
-    resize: none;
-    width: 325px;
-    height: 210px;
   }
   .footer {
     display: flex;
@@ -659,15 +641,15 @@ p {
     justify-content: center;
     padding: 25px 50px;
   }
-  .footer .footer__text {
+  .footer__text {
     flex: 1;
   }
-  .footer .footer__text p {
+  .footer__text p {
     font: 14px "Montserrat", sans-serif;
     color: #777777;
     font-weight: bold;
   }
-  .footer .footer__icon {
+  .footer__icon {
     flex: 1;
     padding: 0 60px 0 0px 0;
   }
@@ -700,14 +682,14 @@ p {
     justify-content: center;
     padding: 0 70px 30px 70px;
   }
-  .jumbotron .navi .navi__menu {
+  .jumbotron .navi__menu {
     display: flex;
     flex-direction: column;
   }
-  .jumbotron .navi .navi__menu li {
+  .jumbotron .navi__menu li {
     padding-top: 20px;
   }
-  .jumbotron .navi .navi__menu li a {
+  .jumbotron .navi__menu li a {
     padding: 0 0 0 0;
   }
   .jumbotron .header p {
@@ -724,19 +706,19 @@ p {
     align-items: center;
     flex-direction: column;
   }
-  .services .services__header {
+  .services__header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
   }
-  .services .services__header h1 {
+  .services__header h1 {
     text-transform: uppercase;
     font: 28px "Montserrat", sans-serif;
     font-weight: bold;
   }
-  .services .services__items {
+  .services__items {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -744,7 +726,7 @@ p {
     flex-direction: column;
     padding-top: 20px;
   }
-  .services .services__items .item {
+  .services__items .item {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -752,22 +734,22 @@ p {
     flex: 1;
     padding: 33px;
   }
-  .services .services__items .item h1 {
+  .services__items .item h1 {
     font-size: 16px;
     font-weight: bold;
   }
-  .services .services__items .item p {
+  .services__items .item p {
     text-align: center;
   }
-  .portfolio .portfolio__header {
+  .portfolio__header {
     text-align: center;
   }
-  .portfolio .portfolio__header h1 {
+  .portfolio__header h1 {
     text-transform: uppercase;
     font: 16px;
     font-weight: bold;
   }
-  .portfolio .portfolio__box {
+  .portfolio__box {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -775,63 +757,63 @@ p {
     padding-top: 30px;
     flex-wrap: wrap;
   }
-  .portfolio .portfolio__box .box {
+  .portfolio__box .box {
     background-color: #FFF;
     margin: 25px 8px 25px 8px;
     text-align: center;
   }
-  .portfolio .portfolio__box .box h1 {
+  .portfolio__box .box h1 {
     font-size: 16px;
     font-weight: bold;
   }
-  .portfolio .portfolio__box .box p {
+  .portfolio__box .box p {
     font-style: italic;
     padding-bottom: 20px;
   }
-  .aboutus .aboutus__header {
+  .aboutus__header {
     text-align: center;
   }
-  .aboutus .aboutus__header h1 {
+  .aboutus__header h1 {
     text-transform: uppercase;
     font: 16px;
     font-weight: bold;
   }
-  .aboutus .aboutus__circle {
+  .aboutus__circle {
     padding-bottom: 200px;
   }
-  .aboutus .aboutus__circle .circle {
+  .aboutus__circle .circle {
     display: flex;
     justify-content: center;
   }
-  .aboutus .aboutus__circle .circle:nth-child(even) .circle__text {
+  .aboutus__circle .circle:nth-child(even) .circle__text {
     margin-left: 0;
   }
-  .aboutus .aboutus__circle .circle:nth-child(odd) .circle__text {
+  .aboutus__circle .circle:nth-child(odd) .circle__text {
     text-align: center;
     margin-right: 0;
   }
-  .aboutus .aboutus__circle .circle:last-child .circle__text {
+  .aboutus__circle .circle:last-child .circle__text {
     position: absolute;
     justify-content: center;
     text-align: center;
     display: flex;
     margin: 80px 250px 0 0;
   }
-  .aboutus .aboutus__circle .circle:last-child .circle__text h1 {
+  .aboutus__circle .circle:last-child .circle__text h1 {
     color: #FFF;
     word-spacing: 100vw;
   }
-  .aboutus .aboutus__circle .circle .circle__image {
+  .aboutus__circle .circle__image {
     position: absolute;
     justify-content: center;
     display: flex;
     flex: 1;
     margin: 25px 0 0 0;
   }
-  .aboutus .aboutus__circle .circle .circle__image:after {
+  .aboutus__circle .circle__image:after {
     display: none;
   }
-  .aboutus .aboutus__circle .circle .circle__text {
+  .aboutus__circle .circle__text {
     text-align: center;
     margin: 225px 0 80px 0;
     max-width: 350px;
@@ -842,19 +824,19 @@ p {
     align-items: center;
     flex-direction: column;
   }
-  .team .team__header {
+  .team__header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
   }
-  .team .team__header h1 {
+  .team__header h1 {
     text-transform: uppercase;
     font: 16px;
     font-weight: bold;
   }
-  .team .team__person {
+  .team__person {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -862,64 +844,39 @@ p {
     padding-top: 0;
     flex-wrap: wrap;
   }
-  .team .team__person .person {
+  .team__person .person {
     padding: 10px;
   }
-  .team .team__person .person .person__descr {
+  .team__person .person__descr {
     margin: 25px 8px 25px 8px;
     text-align: center;
   }
-  .team .team__person .person .person__descr h1 {
+  .team__person .person__descr h1 {
     font-size: 16px;
     font-weight: bold;
   }
-  .team .team__text {
+  .team__text {
     padding: 0 25px 0 25px;
     text-align: center;
   }
   .baners img {
     padding: 60px 10px 60px 10px;
   }
-  .mapbg .contactus .contactus__header {
+  .mapbg .contactus__header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .mapbg .contactus .contactus__header h1 {
+  .mapbg .contactus__header h1 {
     text-transform: uppercase;
     font: 16px;
     font-weight: bold;
     color: #FFF;
   }
-  .mapbg .contactus .contactus__header h3 {
+  .mapbg .contactus__header h3 {
     color: #FFF;
-  }
-  .mapbg .contactus .contactus__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 25px;
-  }
-  .mapbg .contactus .contactus__form .form__input {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-  }
-  .mapbg .contactus .contactus__form .form__input input {
-    margin: 15px 15px 30px 15px;
-    padding: 15px;
-    width: 200px;
-    height: 50px;
-  }
-  .mapbg .contactus .contactus__form textarea {
-    margin: 15px 15px 30px 15px;
-    padding: 15px;
-    flex: 1;
-    resize: none;
-    width: 200px;
-    height: 150px;
   }
   .footer {
     display: flex;
@@ -928,16 +885,16 @@ p {
     flex-direction: column;
     padding: 25px 50px;
   }
-  .footer .footer__text {
+  .footer__text {
     flex: 1;
   }
-  .footer .footer__text p {
+  .footer__text p {
     padding: 25px;
     font: 14px "Montserrat", sans-serif;
     color: #777777;
     font-weight: bold;
   }
-  .footer .footer__icon {
+  .footer__icon {
     flex: 1;
     padding: 25px 0 0 0 0;
   }

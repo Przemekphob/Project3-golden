@@ -126,13 +126,13 @@ p {
 	  	align-items: center;	
 	  	text-align: center;
 	  	padding: 0 230px 180px 230px;
-		.navi__image {
+		&__image {
 		
 			display: flex;
 			justify-content: flex-start;
 			flex: 1;
 		}
-		.navi__menu {
+		&__menu {
 			display: flex;
 			justify-content: flex-end;
 			list-style-type: none;
@@ -175,7 +175,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	.services__header {
+	&__header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -187,7 +187,7 @@ p {
 		}
 
 	}
-	.services__items {
+	&__items {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -201,7 +201,7 @@ p {
 			align-items: center;
 			flex: 1;
 			padding: 33px;
-			.item__image {
+			&__image {
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -227,7 +227,7 @@ p {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	.portfolio__header {
+	&__header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -238,7 +238,7 @@ p {
 			font-weight: bold;	
 		}	
 	}
-	.portfolio__box {
+	&__box {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -266,7 +266,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	.aboutus__header {
+	&__header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -279,7 +279,7 @@ p {
 
 	}
 
-	.aboutus__circle {
+	&__circle {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -288,7 +288,6 @@ p {
 			display: flex;
 			justify-content: center;
 
-		
 			
 			&:nth-child(even) {
 				.circle__text {
@@ -306,28 +305,25 @@ p {
 
 			&:last-child {
 				.circle__text {
-				position: absolute;
-				justify-content: center;
-				text-align: center;
-				display: flex;
-				margin: 130px 0 0 0;
-				h1 {
-					color: #FFF;
-					word-spacing: 100vw;
-				}
-
-									
-				}				
-			}
-			&:last-child { 
+					position: absolute;
+					justify-content: center;
+					text-align: center;
+					display: flex;
+					margin: 130px 0 0 0;
+					h1 {
+						color: #FFF;
+						word-spacing: 100vw;
+					}				
+				}	
 				.circle__image {
 					&:after { 
 					visibility: hidden;
 					}
-				}
+				}							
 			}
 
-			.circle__image {
+
+			&__image {
 				position: absolute;
 				justify-content: center;
 				display: flex;
@@ -343,7 +339,7 @@ p {
 				}	
 			}
 
-			.circle__text {	
+			&__text {	
 				margin: 80px 0 80px 0;
 				display: flex;
 				justify-content: flex-start;
@@ -368,7 +364,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	.team__header {
+	&__header {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -381,7 +377,7 @@ p {
 
 	}
 
-	.team__person {
+	&__person {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -403,7 +399,7 @@ p {
 		}
 	}
 
-	.team__text {
+	&__text {
 		padding: 0 145px 0 145px;
 		text-align: center;
 		p {
@@ -434,12 +430,13 @@ p {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+
 		button {
 			color: #FFF;
 
 		}
 
-		.contactus__header {
+		&__header {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -453,34 +450,39 @@ p {
 
 		}
 
-		.contactus__form {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
+		&__form {
+			padding-bottom: 50px;
 			padding-top: 50px;
-
-
+    		height: 100%;
+    		width: 100%;
+    		display: flex;
+    		flex-direction: row;
+    		justify-content: center;
 
 			.form__input {
-				display: flex;
-				flex-direction: column;
 				flex: 1;
-
-				input {
-					margin: 15px 25px 30px 0;
-					padding: 15px;
-					width: 450px;
-					height: 50px
-				}
+         		width:100%;
+				margin: 0 15px 0 15px;
+			    input {
+			        display: flex;
+			        flex-direction: column;
+			        width: 100%;
+			    	margin: 15px 0 15px 0;	
+			    	padding: 15px;
+			    }
 			}
 
-			textarea {
-				margin: 15px 0 30px 25px;
-				padding: 15px;				
-				flex: 1;			
-				resize: none;
-				width: 450px;	
-				height: 210px;	
+			.form__textarea {
+    			margin: 15px 15px 15px 0;	
+			    flex: 1;
+			    display: flex;  
+				textarea {
+				    flex: 1;
+					height: 100%;
+				    padding: 15px;
+
+
+				}
 
 			}
 		}
@@ -492,7 +494,7 @@ p {
 	align-items: center;
 	padding: 25px 120px;
 
-	.footer__text {
+	&__text {
 		flex: 0.6;
 		p {
 			font: 14px $monrat;	
@@ -501,7 +503,7 @@ p {
 		}
 	}
 
-	.footer__icon {
+	&__icon {
 		flex: 1;
 		padding: 0 60px 0 0px 0;
 	}
@@ -530,7 +532,7 @@ p {
 	}
 
 	.services {
-		.services__items {
+		&__items {
 			padding-top: 70px;
 			.item {
 				padding: 10px;
@@ -539,7 +541,7 @@ p {
 	}
 
 	.portfolio {
-		.portfolio__box {
+		&__box {
 			padding-top: 60px;
 			.box {
 				margin: 15px 4px 15px 4px;
@@ -549,7 +551,7 @@ p {
 
 	.aboutus {
 
-		.aboutus__circle {
+		&__circle {
 			padding-bottom: 200px;
 		}
 	}
@@ -566,7 +568,7 @@ p {
 		.navi {
 		  	padding: 0 70px 70px 70px;
 
-		.navi__menu {
+		&__menu {
 			li {
 				a {
 					padding: 0 0 0 30px;
@@ -588,7 +590,7 @@ p {
 	}
 
 	.services {
-		.services__items {
+		&__items {
 			padding-top: 50px;
 			.item {
 				padding: 5px;
@@ -597,7 +599,7 @@ p {
 	}
 
 	.portfolio {
-		.portfolio__box {
+		&__box {
 			padding-top: 50px;
 			.box {
 				margin: 40px;
@@ -607,7 +609,7 @@ p {
 
 	.aboutus {
 
-		.aboutus__circle {
+		&__circle {
 			padding-bottom: 250px;
 			.circle {
 				display: flex;
@@ -636,7 +638,7 @@ p {
 					}				
 					}				
 				}
-				.circle__text {	
+				&__text {	
 					margin: 80px 0 80px 0;
 					max-width: 200px;
 				}
@@ -649,7 +651,7 @@ p {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		.team__header {
+		&__header {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -662,7 +664,7 @@ p {
 
 		}
 
-		.team__person {
+		&__person {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
@@ -671,7 +673,7 @@ p {
 			flex-wrap: wrap;
 			.person {
 				padding: 10px;
-				.person__descr {
+				&__descr {
 					margin: 25px 8px 25px 8px;
 					text-align: center;
 					h1 {
@@ -681,7 +683,7 @@ p {
 				}
 			}
 		}
-		.team__text {
+		&__text {
 			padding: 0 75px 0 75px;
 			text-align: center;
 		}
@@ -693,47 +695,13 @@ p {
 		}
 	}
 
-	.mapbg {
-		.contactus {
-			.contactus__form {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-				padding-top: 25px;
-
-				.form__input {
-					display: flex;
-					flex-direction: column;
-					flex: 1;
-
-					input {
-						margin: 15px 25px 30px 0;
-						padding: 15px;
-						width: 325px;
-						height: 50px
-					}
-				}
-
-				textarea {
-					margin: 15px 0 30px 25px;
-					padding: 15px;				
-					flex: 1;			
-					resize: none;
-					width: 325px;	
-					height: 210px;	
-
-				}
-			}
-		}
-	}
-
 	.footer {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		padding: 25px 50px;
 
-		.footer__text {
+		&__text {
 			flex: 1;
 			p {
 				font: 14px $monrat;	
@@ -742,7 +710,7 @@ p {
 			}
 		}
 
-		.footer__icon {
+		&__icon {
 			flex: 1;
 			padding: 0 60px 0 0px 0;
 		}
@@ -785,7 +753,7 @@ p {
 			justify-content: center;
 		  	padding: 0 70px 30px 70px;
 
-		.navi__menu {
+		&__menu {
 			display: flex;
 			flex-direction: column;
 			li {
@@ -814,7 +782,7 @@ p {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		.services__header {
+		&__header {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -827,7 +795,7 @@ p {
 			}
 
 		}
-		.services__items {
+		&__items {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
@@ -854,7 +822,7 @@ p {
 	}
 
 	.portfolio {
-		.portfolio__header {
+		&__header {
 			text-align: center;
 			h1 {
 				text-transform: uppercase;
@@ -862,7 +830,7 @@ p {
 				font-weight: bold;	
 			}	
 		}
-		.portfolio__box {
+		&__box {
 			display: flex;
 			justify-content: space-between;
 			flex-direction: column;
@@ -887,7 +855,7 @@ p {
 	}
 
 	.aboutus {
-		.aboutus__header {
+		&__header {
 			text-align: center;
 			h1 {
 				text-transform: uppercase;
@@ -895,7 +863,7 @@ p {
 				font-weight: bold;	
 			}
 		}
-		.aboutus__circle {
+		&__circle {
 			padding-bottom: 200px;
 			.circle {
 				display: flex;
@@ -925,7 +893,7 @@ p {
 					}				
 				}
 
-				.circle__image {
+				&__image {
 					position: absolute;
 					justify-content: center;
 					display: flex;
@@ -936,7 +904,7 @@ p {
 					}	
 				}
 
-				.circle__text {	
+				&__text {	
 					text-align: center;
 					margin: 225px 0 80px 0;
 					max-width: 350px;
@@ -950,7 +918,7 @@ p {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		.team__header {
+		&__header {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -963,7 +931,7 @@ p {
 			}
 		}
 
-		.team__person {
+		&__person {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -972,7 +940,7 @@ p {
 			flex-wrap: wrap;
 			.person {
 				padding: 10px;
-				.person__descr {
+				&__descr {
 					margin: 25px 8px 25px 8px;
 					text-align: center;
 					h1 {
@@ -982,7 +950,7 @@ p {
 				}
 			}
 		}
-		.team__text {
+		&__text {
 			padding: 0 25px 0 25px;
 			text-align: center;
 		}
@@ -997,7 +965,7 @@ p {
 	.mapbg {
 		.contactus {
 
-			.contactus__header {
+			&__header {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
@@ -1014,36 +982,6 @@ p {
 				}
 
 			}
-
-			.contactus__form {
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-				padding-top: 25px;
-
-				.form__input {
-					display: flex;
-					flex-direction: column;
-					flex: 1;
-
-					input {
-						margin: 15px 15px 30px 15px;
-						padding: 15px;
-						width: 200px;
-						height: 50px
-					}
-				}
-
-				textarea {
-					margin: 15px 15px 30px 15px;
-					padding: 15px;				
-					flex: 1;			
-					resize: none;
-					width: 200px;	
-					height: 150px;	
-
-				}
-			}
 		}
 	}
 
@@ -1054,7 +992,7 @@ p {
 		flex-direction: column;
 		padding: 25px 50px;
 
-		.footer__text {
+		&__text {
 			flex: 1;
 			p {
 				padding: 25px;
@@ -1064,21 +1002,21 @@ p {
 			}
 		}
 
-		.footer__icon {
+		&__icon {
 			flex: 1;
 			padding: 25px 0 0 0 0;
 		}
 	}
 
-.yellowbtn {
-	width: 200px;
-	height: 50px;
-	border: none;
-	border-radius: 2%;
-	font: 16px $monrat;
-	font-weight: bold;
-	background-color: $yellow;
-	text-transform: uppercase;
-}
+	.yellowbtn {
+		width: 200px;
+		height: 50px;
+		border: none;
+		border-radius: 2%;
+		font: 16px $monrat;
+		font-weight: bold;
+		background-color: $yellow;
+		text-transform: uppercase;
+	}
 
 }
